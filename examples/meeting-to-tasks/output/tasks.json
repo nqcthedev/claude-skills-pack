@@ -1,0 +1,197 @@
+{
+  "meeting": {
+    "title": "BrightSmile x Northbeam - Project kickoff call",
+    "date": "2026-12-02",
+    "attendees": [
+      { "name": "Hoa Tran", "email": "hoa.tran@brightsmile.example", "role": "Operations Manager, BrightSmile" },
+      { "name": "Dr. Minh Le", "email": "minh.le@brightsmile.example", "role": "Director, BrightSmile" },
+      { "name": "Thu Nguyen", "email": "thu.nguyen@brightsmile.example", "role": "Front desk lead D1, BrightSmile" },
+      { "name": "Khoa Pham", "email": "khoa.pham@brightsmile.example", "role": "Front desk lead D7, BrightSmile" },
+      { "name": "An Vo", "email": "an.vo@northbeam.example", "role": "Project lead, Northbeam" },
+      { "name": "Bao Dang", "email": "bao.dang@northbeam.example", "role": "Engineer, Northbeam" }
+    ],
+    "source": "transcript"
+  },
+  "summary": "BrightSmile confirmed the Recommended option (SMS reminders in, Zalo and the dashboard after Tet) and agreed the booking and handover rules for the assistant. This week's critical path is access and content: SMS account details and Facebook admin by Friday 4 Dec, calendar sharing on Monday 7 Dec, and the price and insurer lists on 3 Dec so the Vietnamese script can go to review by 11 Dec and be approved before the 18 Dec content freeze. Still open: who receives handover alerts at night at each clinic.",
+  "decisions": [
+    {
+      "id": "D1",
+      "decision": "Go with the Recommended option; the admin dashboard is postponed until after Tet.",
+      "rationale": "Director's call to keep scope focused on the pre-Tet launch.",
+      "source_quote": "We're going with the Recommended option. The dashboard can wait until after Tet."
+    },
+    {
+      "id": "D2",
+      "decision": "Day-before SMS reminders are in scope; Zalo is out for now.",
+      "rationale": "Follows from D1.",
+      "source_quote": "Then SMS reminders are in, Zalo is out for now."
+    },
+    {
+      "id": "D3",
+      "decision": "Only check-ups, cleaning, fillings and whitening can be booked online; every other treatment becomes a consultation request. The last appointment must end 30 minutes before closing.",
+      "rationale": "Implants and root canals need a consultation first; dentists want to avoid overtime.",
+      "source_quote": "only check-ups, cleaning, fillings and whitening are bookable online; everything else goes to a consultation request. And the last appointment ends 30 minutes before closing."
+    },
+    {
+      "id": "D4",
+      "decision": "Urgent symptoms (pain, swelling, bleeding) get the clinic hotline immediately plus a handover alert; other medical questions and complaints get a normal handover.",
+      "rationale": "Patients in pain should not wait for a front-desk reply.",
+      "source_quote": "urgent symptoms get the hotline number straight away plus a handover alert. Everything else that's medical gets a normal handover."
+    },
+    {
+      "id": "D5",
+      "decision": "The assistant never confirms insurance coverage; it says coverage depends on the plan and offers a front-desk check.",
+      "rationale": "Coverage for insurers such as Cigna or Bupa depends on the individual plan.",
+      "source_quote": "the bot will say coverage depends on the plan and offer to have the front desk check"
+    },
+    {
+      "id": "D6",
+      "decision": "Both Hoa Tran and Dr. Minh Le review the script, and approval is given within 2 business days.",
+      "rationale": "Protects the 18 Dec content freeze.",
+      "source_quote": "We need approval within two business days to keep the content freeze on the 18th."
+    },
+    {
+      "id": "D7",
+      "decision": "User testing runs on 28, 29 and 30 December with Thu Nguyen and Khoa Pham.",
+      "rationale": "31 December is the year-end inventory.",
+      "source_quote": "Then 28, 29 and 30 December."
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A1",
+      "title": "Check SMS brandname on TinNhanNhanh account and send details",
+      "description": "Confirm whether the sender name \"BrightSmile\" is registered on the existing TinNhanNhanh account and send the account details to Northbeam. High priority: sender name registration has the longest lead time in the plan.",
+      "owner": "Hoa Tran",
+      "due_date": "2026-12-04",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["sms", "client-input"],
+      "source_quote": "I'll check with the provider and send you the account details by Friday."
+    },
+    {
+      "id": "A2",
+      "title": "Send service account email for calendar sharing",
+      "description": "Send Hoa the Google service account address the 11 dentist calendars should be shared with. Blocks A3.",
+      "owner": "Bao Dang",
+      "due_date": "2026-12-02",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["calendar"],
+      "source_quote": "I'll send the email address after this call."
+    },
+    {
+      "id": "A3",
+      "title": "Share all 11 dentist calendars with the service account",
+      "description": "Needs the IT admin, who is back on Monday. High priority: calendar booking is built in week 3.",
+      "owner": "Hoa Tran",
+      "due_date": "2026-12-07",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": ["A2"],
+      "labels": ["calendar", "client-input"],
+      "source_quote": "I can do the sharing, but only on Monday"
+    },
+    {
+      "id": "A4",
+      "title": "Send latest price list and insurer list to An",
+      "description": "The price list changed in November; Thu has the current version. High priority: the Vietnamese script depends on it.",
+      "owner": "Thu Nguyen",
+      "due_date": "2026-12-03",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["content", "client-input"],
+      "source_quote": "I'll send the price list and the insurer list to An tomorrow."
+    },
+    {
+      "id": "A5",
+      "title": "Draft Vietnamese script and send to Hoa and Dr. Minh for review",
+      "description": "First Vietnamese conversation script built from the price and insurer lists, following decisions D3-D5. Send to both reviewers (D6). High priority: the content freeze is 18 Dec.",
+      "owner": "An Vo",
+      "due_date": "2026-12-11",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": ["A4"],
+      "labels": ["content"],
+      "source_quote": "I'll turn that into the first Vietnamese script and send it for review by end of next week."
+    },
+    {
+      "id": "A6",
+      "title": "Review and approve the Vietnamese script",
+      "description": "Dr. Minh Le and Hoa Tran review within 2 business days of receiving the draft. Due date inferred from A5 being sent on Fri 11 Dec. High priority: protects the 18 Dec content freeze.",
+      "owner": "Dr. Minh Le",
+      "due_date": "2026-12-15",
+      "due_basis": "inferred",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": ["A5"],
+      "labels": ["content", "client-input", "approval"],
+      "source_quote": "Fine, two days."
+    },
+    {
+      "id": "A7",
+      "title": "Add insurance-coverage test case to the test script",
+      "description": "The assistant must never answer \"yes\" outright when asked whether an insurer (e.g. Cigna, Bupa) is covered (D5).",
+      "owner": "Bao Dang",
+      "due_date": null,
+      "due_basis": "none",
+      "priority": "medium",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["testing"],
+      "source_quote": "Yes, I'll add it to the test script."
+    },
+    {
+      "id": "A8",
+      "title": "Ask marketing agency to add Bao as Facebook page admin",
+      "description": "Admin access is needed to connect Messenger. Hoa said \"hopefully\" by Friday - follow up if it slips. High priority: blocks the Messenger connection.",
+      "owner": "Hoa Tran",
+      "due_date": "2026-12-04",
+      "due_basis": "explicit",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["messenger", "client-input"],
+      "source_quote": "I'll ask them to add Bao as admin, hopefully by Friday."
+    },
+    {
+      "id": "A9",
+      "title": "Send testing invites for 28-30 Dec to Thu and Khoa",
+      "description": "Calendar invites for the three user-testing days (D7).",
+      "owner": "An Vo",
+      "due_date": null,
+      "due_basis": "none",
+      "priority": "medium",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["testing"],
+      "source_quote": "I'll send calendar invites."
+    },
+    {
+      "id": "A10",
+      "title": "Add optional \"how did you hear about us\" question to booking",
+      "description": "One optional question at the end of a new-patient booking, requested for marketing. Included in the script draft, so the due date is inferred from A5.",
+      "owner": "An Vo",
+      "due_date": "2026-12-11",
+      "due_basis": "inferred",
+      "priority": "low",
+      "status": "todo",
+      "depends_on": [],
+      "labels": ["content"],
+      "source_quote": "It's small, I'll include it in the script draft."
+    }
+  ],
+  "open_questions": [
+    { "id": "Q1", "question": "Who receives handover alerts at night and on Sundays at each clinic? Needed before testing starts on 28 Dec.", "owner": "Hoa Tran" },
+    { "id": "Q2", "question": "What are the Saturday and weekday opening hours for District 3 and Thu Duc? Only District 1 and District 7 were discussed.", "owner": "Unassigned" },
+    { "id": "Q3", "question": "At which clinics do Dr. Lan and Dr. Quang work, so whitening is only offered where they are available?", "owner": "Unassigned" }
+  ]
+}

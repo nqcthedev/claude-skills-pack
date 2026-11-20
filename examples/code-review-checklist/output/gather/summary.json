@@ -1,0 +1,132 @@
+{
+  "range": "HEAD vs merge-base with main (f2e13ee676)",
+  "mode": "branch",
+  "base": "main",
+  "checklist_path": "skills/code-review-checklist/references/default-checklist.md",
+  "totals": {
+    "files": 6,
+    "additions": 75,
+    "deletions": 0,
+    "source_files": 5,
+    "test_files": 0
+  },
+  "languages": [
+    "Other",
+    "Python",
+    "SQL"
+  ],
+  "commits": [
+    {
+      "sha": "74561cb",
+      "author": "Bao Dang",
+      "subject": "Add cancel-by-link to SMS reminders"
+    }
+  ],
+  "files": [
+    {
+      "path": "app/__init__.py",
+      "status": "modified",
+      "language": "Python",
+      "additions": 2,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    },
+    {
+      "path": "app/config.py",
+      "status": "added",
+      "language": "Python",
+      "additions": 6,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    },
+    {
+      "path": "app/reminders.py",
+      "status": "added",
+      "language": "Python",
+      "additions": 31,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    },
+    {
+      "path": "app/routes/cancel.py",
+      "status": "added",
+      "language": "Python",
+      "additions": 31,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    },
+    {
+      "path": "migrations/003_cancel_tokens.sql",
+      "status": "added",
+      "language": "SQL",
+      "additions": 4,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "language": "Other",
+      "additions": 1,
+      "deletions": 0,
+      "binary": false,
+      "is_test": false,
+      "is_generated": false
+    }
+  ],
+  "risk_flags": [
+    {
+      "type": "possible_secret",
+      "path": "app/config.py",
+      "line": 4,
+      "detail": "hardcoded_credential: SMS_API_KEY = \"tnn_live_9f3b2c7d1e8a4f6b\""
+    },
+    {
+      "type": "debug_statement",
+      "path": "app/reminders.py",
+      "line": 28,
+      "detail": "print(\"sending\", appt[\"patient_phone\"], text)"
+    },
+    {
+      "type": "weak_random_or_hash",
+      "path": "app/routes/cancel.py",
+      "line": 15,
+      "detail": "token = str(int(random.random() * 10**12))"
+    },
+    {
+      "type": "possible_sql_injection",
+      "path": "app/routes/cancel.py",
+      "line": 26,
+      "detail": "row = db.execute(f\"SELECT appointment_id FROM cancel_tokens WHERE token = '{token}'\").fetchone()"
+    },
+    {
+      "type": "migration",
+      "path": "migrations/003_cancel_tokens.sql",
+      "line": null,
+      "detail": "Database migration or SQL file changed"
+    },
+    {
+      "type": "dependency_change",
+      "path": "requirements.txt",
+      "line": null,
+      "detail": "Dependency manifest changed"
+    },
+    {
+      "type": "source_without_tests",
+      "path": "app/__init__.py",
+      "line": null,
+      "detail": "5 source file(s) changed, no test files changed"
+    }
+  ],
+  "patch_bytes": 4230
+}

@@ -1,0 +1,63 @@
+{
+  "tool": "extract_structured",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "include": [
+      "meta",
+      "headings",
+      "json_ld",
+      "tables"
+    ]
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "finalUrl": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "status": 200,
+    "meta": {
+      "title": "Cold Brew Ratio Cheat Sheet | The Daily Grind | Coffee Tips, Recipes and More",
+      "description": null,
+      "canonical": null,
+      "lang": "en",
+      "robots": null,
+      "hreflang": []
+    },
+    "jsonLd": [
+      {
+        "valid": true,
+        "types": [
+          "Recipe"
+        ],
+        "warnings": [],
+        "data": {
+          "@context": "https://schema.org",
+          "@type": "Recipe",
+          "name": "Cold brew",
+          "recipeIngredient": [
+            "1 cup coffee",
+            "4 cups water"
+          ]
+        }
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Cold brew ratio cheat sheet"
+      },
+      {
+        "level": 3,
+        "text": "Ratios"
+      },
+      {
+        "level": 3,
+        "text": "Steep time"
+      },
+      {
+        "level": 3,
+        "text": "Tips"
+      }
+    ],
+    "tables": []
+  }
+}

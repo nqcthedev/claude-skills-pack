@@ -1,0 +1,89 @@
+{
+  "tool": "extract_structured",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "include": [
+      "meta",
+      "headings",
+      "json_ld",
+      "tables"
+    ]
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "finalUrl": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "status": 200,
+    "meta": {
+      "title": "We Tested 5 Cold Brew Ratios Side by Side (Results)",
+      "description": "We brewed five cold brew ratios from 1:4 to 1:12 with the same beans and tasted them blind. Here is what each ratio tastes like and which one won.",
+      "canonical": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+      "lang": "en",
+      "robots": null,
+      "hreflang": []
+    },
+    "jsonLd": [],
+    "headings": [
+      {
+        "level": 1,
+        "text": "We tested 5 cold brew ratios side by side"
+      },
+      {
+        "level": 2,
+        "text": "The setup"
+      },
+      {
+        "level": 2,
+        "text": "The results"
+      },
+      {
+        "level": 2,
+        "text": "What we recommend"
+      },
+      {
+        "level": 2,
+        "text": "Cost per glass"
+      },
+      {
+        "level": 2,
+        "text": "What we would test next"
+      }
+    ],
+    "tables": [
+      {
+        "headers": [
+          "Ratio",
+          "What it tasted like",
+          "Votes for favourite"
+        ],
+        "rows": [
+          [
+            "1:4",
+            "Heavy and syrupy, slightly bitter even after dilution",
+            "0"
+          ],
+          [
+            "1:5",
+            "Rich and chocolatey, smooth with milk",
+            "2"
+          ],
+          [
+            "1:8",
+            "Balanced, sweet, the best straight over ice",
+            "2"
+          ],
+          [
+            "1:10",
+            "Clean but a little thin",
+            "0"
+          ],
+          [
+            "1:12",
+            "Watery, tea-like",
+            "0"
+          ]
+        ]
+      }
+    ]
+  }
+}

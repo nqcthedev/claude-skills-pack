@@ -1,0 +1,12 @@
+fetch_page.lumen: ok
+extract_structured.lumen: ok
+fetch_page.brewlab: ok
+extract_structured.brewlab: ok
+fetch_page.beanandbarrel: ok
+extract_structured.beanandbarrel: ok
+fetch_page.dailygrind: ok
+extract_structured.dailygrind: ok
+compare_pages.lumen-vs-brewlab: ok
+compare_pages.lumen-vs-beanandbarrel: ok
+compare_pages.lumen-vs-dailygrind: ok
+seo_audit.lumen: ok

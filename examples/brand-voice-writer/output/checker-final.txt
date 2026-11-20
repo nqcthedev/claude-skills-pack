@@ -1,0 +1,3 @@
+linkedin.md [linkedin]: PASS (length 144/250 words, longest sentence 17/22, reading ease 78, emoji 0/1, exclamations 0/1, hashtags 3/3)
+instagram.md [instagram]: PASS (length 80/200 words, longest sentence 14/22, reading ease 80, emoji 1/1, exclamations 0/1, hashtags 3/3)
+email.md [email]: PASS (length 163/350 words, longest sentence 19/22, reading ease 81, emoji 0/1, exclamations 0/1, hashtags 0/3)

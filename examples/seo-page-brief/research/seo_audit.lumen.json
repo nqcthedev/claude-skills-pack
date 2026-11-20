@@ -1,0 +1,92 @@
+{
+  "tool": "seo_audit",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew"
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew",
+    "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+    "status": 200,
+    "score": 94,
+    "summary": {
+      "errors": 0,
+      "warnings": 1,
+      "info": 1,
+      "passed": 26
+    },
+    "issues": [
+      {
+        "id": "https",
+        "severity": "warning",
+        "message": "Page is served over plain HTTP.",
+        "fix": "Serve the site over HTTPS and 301-redirect HTTP to HTTPS."
+      },
+      {
+        "id": "twitter-card",
+        "severity": "info",
+        "message": "No twitter:card tag (X falls back to Open Graph, but without a large image card).",
+        "fix": "Add <meta name=\"twitter:card\" content=\"summary_large_image\">."
+      }
+    ],
+    "passed": [
+      "http-status",
+      "redirect-chain",
+      "title",
+      "single-title",
+      "meta-description",
+      "single-meta-description",
+      "h1",
+      "h1-not-empty",
+      "heading-order",
+      "first-heading-h1",
+      "canonical",
+      "indexable",
+      "followable",
+      "viewport",
+      "viewport-zoom",
+      "lang",
+      "charset",
+      "open-graph",
+      "image-alt",
+      "json-ld-present",
+      "json-ld-valid",
+      "json-ld-context-type",
+      "internal-links",
+      "link-text",
+      "descriptive-anchors",
+      "content-length"
+    ],
+    "facts": {
+      "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+      "titleLength": 50,
+      "metaDescription": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+      "metaDescriptionLength": 141,
+      "h1": [
+        "How to make cold brew at home"
+      ],
+      "canonical": "http://127.0.0.1:3402/lumen/cold-brew",
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "lang": "en",
+      "viewport": "width=device-width, initial-scale=1",
+      "wordCount": 394,
+      "headingCount": 9,
+      "internalLinks": 3,
+      "externalLinks": 0,
+      "images": 0,
+      "imagesMissingAlt": 0,
+      "jsonLdTypes": [
+        "Recipe",
+        "FAQPage"
+      ],
+      "openGraph": {
+        "og:title": "How to make cold brew at home",
+        "og:description": "Coarse grind, 1:8 ratio, 16 hours.",
+        "og:image": "/img/cold-brew.jpg"
+      },
+      "twitterCard": null,
+      "redirects": []
+    }
+  }
+}

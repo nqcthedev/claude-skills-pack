@@ -1,0 +1,349 @@
+{
+  "tool": "compare_pages",
+  "arguments": {
+    "url_a": "http://127.0.0.1:3402/lumen/cold-brew",
+    "url_b": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio"
+  },
+  "isError": false,
+  "structuredContent": {
+    "a": {
+      "url": "http://127.0.0.1:3402/lumen/cold-brew",
+      "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+      "status": 200,
+      "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+      "metaDescription": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+      "h1": [
+        "How to make cold brew at home"
+      ],
+      "wordCount": 394,
+      "headingCount": 9,
+      "internalLinks": 3,
+      "externalLinks": 0,
+      "images": 0,
+      "structuredDataTypes": [
+        "Recipe",
+        "FAQPage"
+      ],
+      "topKeywords": [
+        {
+          "term": "cold",
+          "count": 13,
+          "density": 3.22
+        },
+        {
+          "term": "brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coffee",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "concentrate",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "water",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "filter",
+          "count": 6,
+          "density": 1.49
+        },
+        {
+          "term": "grind",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "hours",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "bitter",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "coarse",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "fine",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "jar",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "steeps",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "taste",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "two",
+          "count": 3,
+          "density": 0.74
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "cold brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coarse grind",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "pre-ground coffee",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "room temperature",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "steeps taste",
+          "count": 2,
+          "density": 0.5
+        }
+      ]
+    },
+    "b": {
+      "url": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+      "finalUrl": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+      "status": 200,
+      "title": "Cold Brew Ratio Cheat Sheet | The Daily Grind | Coffee Tips, Recipes and More",
+      "metaDescription": null,
+      "h1": [
+        "Cold brew ratio cheat sheet"
+      ],
+      "wordCount": 63,
+      "headingCount": 4,
+      "internalLinks": 1,
+      "externalLinks": 0,
+      "images": 0,
+      "structuredDataTypes": [
+        "Recipe"
+      ],
+      "topKeywords": [
+        {
+          "term": "coffee",
+          "count": 5,
+          "density": 6.58
+        },
+        {
+          "term": "tips",
+          "count": 3,
+          "density": 3.95
+        },
+        {
+          "term": "water",
+          "count": 3,
+          "density": 3.95
+        },
+        {
+          "term": "advertisement",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "brew",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cheat",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cold",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cup",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cups",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "ratio",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "sheet",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "click",
+          "count": 1,
+          "density": 1.32
+        },
+        {
+          "term": "coarse",
+          "count": 1,
+          "density": 1.32
+        },
+        {
+          "term": "concentrate",
+          "count": 1,
+          "density": 1.32
+        },
+        {
+          "term": "daily",
+          "count": 1,
+          "density": 1.32
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "brew ratio",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cheat sheet",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "coffee tips",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cold brew",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cup coffee",
+          "count": 2,
+          "density": 2.63
+        },
+        {
+          "term": "cups water",
+          "count": 2,
+          "density": 2.63
+        }
+      ]
+    },
+    "differences": {
+      "titleSame": false,
+      "metaDescriptionSame": false,
+      "wordCountDelta": -331,
+      "headings": {
+        "onlyInA": [
+          "What you need",
+          "Grind size for cold brew",
+          "Steeping time and ratio",
+          "Dilution and serving",
+          "How long does cold brew last?",
+          "Frequently asked questions",
+          "Is cold brew stronger than regular coffee?",
+          "Can I use pre-ground coffee?"
+        ],
+        "onlyInB": [
+          "Ratios",
+          "Steep time",
+          "Tips"
+        ],
+        "common": []
+      },
+      "keywords": {
+        "onlyInA": [
+          "filter",
+          "grind",
+          "hours",
+          "bitter",
+          "fine",
+          "jar",
+          "steeps",
+          "taste",
+          "two"
+        ],
+        "onlyInB": [
+          "tips",
+          "advertisement",
+          "cheat",
+          "cup",
+          "cups",
+          "ratio",
+          "sheet",
+          "click",
+          "daily"
+        ],
+        "common": [
+          "cold",
+          "brew",
+          "coffee",
+          "concentrate",
+          "water",
+          "coarse"
+        ]
+      },
+      "phrases": {
+        "onlyInA": [
+          "coarse grind",
+          "pre-ground coffee",
+          "room temperature",
+          "steeps taste"
+        ],
+        "onlyInB": [
+          "brew ratio",
+          "cheat sheet",
+          "coffee tips",
+          "cup coffee",
+          "cups water"
+        ],
+        "common": [
+          "cold brew"
+        ]
+      },
+      "structuredDataTypes": {
+        "onlyInA": [
+          "FAQPage"
+        ],
+        "onlyInB": [],
+        "common": [
+          "Recipe"
+        ]
+      }
+    },
+    "observations": [
+      "B is 331 words shorter than A (-84%).",
+      "B covers 3 sub-topic(s) A doesn't: Ratios; Steep time; Tips.",
+      "A covers 8 sub-topic(s) B doesn't: What you need; Grind size for cold brew; Steeping time and ratio; Dilution and serving; How long does cold brew last?; Frequently asked questions; … (+2 more).",
+      "Phrases prominent only in B: brew ratio, cheat sheet, coffee tips, cup coffee, cups water.",
+      "A has structured data B lacks: FAQPage."
+    ]
+  }
+}

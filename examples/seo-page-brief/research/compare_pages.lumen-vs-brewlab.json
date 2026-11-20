@@ -1,0 +1,393 @@
+{
+  "tool": "compare_pages",
+  "arguments": {
+    "url_a": "http://127.0.0.1:3402/lumen/cold-brew",
+    "url_b": "http://127.0.0.1:3402/brewlab/cold-brew-ratio"
+  },
+  "isError": false,
+  "structuredContent": {
+    "a": {
+      "url": "http://127.0.0.1:3402/lumen/cold-brew",
+      "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+      "status": 200,
+      "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+      "metaDescription": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+      "h1": [
+        "How to make cold brew at home"
+      ],
+      "wordCount": 394,
+      "headingCount": 9,
+      "internalLinks": 3,
+      "externalLinks": 0,
+      "images": 0,
+      "structuredDataTypes": [
+        "Recipe",
+        "FAQPage"
+      ],
+      "topKeywords": [
+        {
+          "term": "cold",
+          "count": 13,
+          "density": 3.22
+        },
+        {
+          "term": "brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coffee",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "concentrate",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "water",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "filter",
+          "count": 6,
+          "density": 1.49
+        },
+        {
+          "term": "grind",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "hours",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "bitter",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "coarse",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "fine",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "jar",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "steeps",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "taste",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "two",
+          "count": 3,
+          "density": 0.74
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "cold brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coarse grind",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "pre-ground coffee",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "room temperature",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "steeps taste",
+          "count": 2,
+          "density": 0.5
+        }
+      ]
+    },
+    "b": {
+      "url": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+      "finalUrl": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+      "status": 200,
+      "title": "Cold Brew Ratio Guide: Concentrate vs Ready-to-Drink",
+      "metaDescription": "The right cold brew coffee ratio for concentrate (1:4 to 1:5) and ready-to-drink (1:8 to 1:12), with grams and cups conversions and a strength chart.",
+      "h1": [
+        "Cold brew ratio guide: concentrate vs ready-to-drink"
+      ],
+      "wordCount": 500,
+      "headingCount": 11,
+      "internalLinks": 4,
+      "externalLinks": 0,
+      "images": 0,
+      "structuredDataTypes": [
+        "Article",
+        "HowTo",
+        "FAQPage"
+      ],
+      "topKeywords": [
+        {
+          "term": "brew",
+          "count": 13,
+          "density": 2.56
+        },
+        {
+          "term": "cold",
+          "count": 11,
+          "density": 2.17
+        },
+        {
+          "term": "ratio",
+          "count": 11,
+          "density": 2.17
+        },
+        {
+          "term": "concentrate",
+          "count": 10,
+          "density": 1.97
+        },
+        {
+          "term": "ready-to-drink",
+          "count": 9,
+          "density": 1.78
+        },
+        {
+          "term": "coffee",
+          "count": 8,
+          "density": 1.58
+        },
+        {
+          "term": "cup",
+          "count": 6,
+          "density": 1.18
+        },
+        {
+          "term": "water",
+          "count": 6,
+          "density": 1.18
+        },
+        {
+          "term": "grounds",
+          "count": 5,
+          "density": 0.99
+        },
+        {
+          "term": "strong",
+          "count": 5,
+          "density": 0.99
+        },
+        {
+          "term": "cups",
+          "count": 4,
+          "density": 0.79
+        },
+        {
+          "term": "grams",
+          "count": 4,
+          "density": 0.79
+        },
+        {
+          "term": "ice",
+          "count": 4,
+          "density": 0.79
+        },
+        {
+          "term": "tastes",
+          "count": 4,
+          "density": 0.79
+        },
+        {
+          "term": "time",
+          "count": 4,
+          "density": 0.79
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "cold brew",
+          "count": 11,
+          "density": 2.17
+        },
+        {
+          "term": "brew ratio",
+          "count": 4,
+          "density": 0.79
+        },
+        {
+          "term": "brew tastes",
+          "count": 3,
+          "density": 0.59
+        },
+        {
+          "term": "coarse grounds",
+          "count": 3,
+          "density": 0.59
+        },
+        {
+          "term": "ground coffee",
+          "count": 3,
+          "density": 0.59
+        },
+        {
+          "term": "grind size",
+          "count": 2,
+          "density": 0.39
+        },
+        {
+          "term": "guide concentrate",
+          "count": 2,
+          "density": 0.39
+        },
+        {
+          "term": "ratio guide",
+          "count": 2,
+          "density": 0.39
+        },
+        {
+          "term": "ratio steeped",
+          "count": 2,
+          "density": 0.39
+        },
+        {
+          "term": "ready-to-drink cold",
+          "count": 2,
+          "density": 0.39
+        },
+        {
+          "term": "steeping time",
+          "count": 2,
+          "density": 0.39
+        }
+      ]
+    },
+    "differences": {
+      "titleSame": false,
+      "metaDescriptionSame": false,
+      "wordCountDelta": 106,
+      "headings": {
+        "onlyInA": [
+          "What you need",
+          "Grind size for cold brew",
+          "Steeping time and ratio",
+          "Dilution and serving",
+          "How long does cold brew last?",
+          "Is cold brew stronger than regular coffee?",
+          "Can I use pre-ground coffee?"
+        ],
+        "onlyInB": [
+          "Concentrate or ready-to-drink?",
+          "Cold brew ratio chart",
+          "Converting grams to cups and scoops",
+          "Why volume measurements drift",
+          "How steeping time changes the ratio you need",
+          "Adjusting for taste",
+          "What is the best cold brew ratio?",
+          "How many scoops of coffee for cold brew?",
+          "Can I reuse the grounds?"
+        ],
+        "common": [
+          "Frequently asked questions"
+        ]
+      },
+      "keywords": {
+        "onlyInA": [
+          "filter",
+          "grind",
+          "hours",
+          "bitter",
+          "coarse",
+          "fine",
+          "jar",
+          "steeps",
+          "taste",
+          "two"
+        ],
+        "onlyInB": [
+          "ratio",
+          "ready-to-drink",
+          "cup",
+          "grounds",
+          "strong",
+          "cups",
+          "grams",
+          "ice",
+          "tastes",
+          "time"
+        ],
+        "common": [
+          "cold",
+          "brew",
+          "coffee",
+          "concentrate",
+          "water"
+        ]
+      },
+      "phrases": {
+        "onlyInA": [
+          "coarse grind",
+          "pre-ground coffee",
+          "room temperature",
+          "steeps taste"
+        ],
+        "onlyInB": [
+          "brew ratio",
+          "brew tastes",
+          "coarse grounds",
+          "ground coffee",
+          "grind size",
+          "guide concentrate",
+          "ratio guide",
+          "ratio steeped",
+          "ready-to-drink cold",
+          "steeping time"
+        ],
+        "common": [
+          "cold brew"
+        ]
+      },
+      "structuredDataTypes": {
+        "onlyInA": [
+          "Recipe"
+        ],
+        "onlyInB": [
+          "Article",
+          "HowTo"
+        ],
+        "common": [
+          "FAQPage"
+        ]
+      }
+    },
+    "observations": [
+      "B is 106 words longer than A (+27%).",
+      "B covers 9 sub-topic(s) A doesn't: Concentrate or ready-to-drink?; Cold brew ratio chart; Converting grams to cups and scoops; Why volume measurements drift; How steeping time changes the ratio you need; Adjusting for taste; … (+3 more).",
+      "A covers 7 sub-topic(s) B doesn't: What you need; Grind size for cold brew; Steeping time and ratio; Dilution and serving; How long does cold brew last?; Is cold brew stronger than regular coffee?; … (+1 more).",
+      "Phrases prominent only in B: brew ratio, brew tastes, coarse grounds, ground coffee, grind size, guide concentrate, ratio guide, ratio steeped.",
+      "B has structured data A lacks: Article, HowTo.",
+      "A has structured data B lacks: Recipe."
+    ]
+  }
+}

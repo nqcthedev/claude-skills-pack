@@ -1,0 +1,185 @@
+{
+  "tool": "extract_structured",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+    "include": [
+      "meta",
+      "headings",
+      "json_ld",
+      "tables"
+    ]
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+    "finalUrl": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+    "status": 200,
+    "meta": {
+      "title": "Cold Brew Ratio Guide: Concentrate vs Ready-to-Drink",
+      "description": "The right cold brew coffee ratio for concentrate (1:4 to 1:5) and ready-to-drink (1:8 to 1:12), with grams and cups conversions and a strength chart.",
+      "canonical": "http://127.0.0.1:3402/brewlab/cold-brew-ratio",
+      "lang": "en",
+      "robots": null,
+      "hreflang": []
+    },
+    "jsonLd": [
+      {
+        "valid": true,
+        "types": [
+          "Article",
+          "HowTo",
+          "FAQPage"
+        ],
+        "warnings": [],
+        "data": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "headline": "Cold brew ratio guide",
+              "author": {
+                "@type": "Person",
+                "name": "Sam Ortega"
+              },
+              "datePublished": "2025-06-02",
+              "dateModified": "2026-08-19"
+            },
+            {
+              "@type": "HowTo",
+              "name": "Make cold brew concentrate",
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "text": "Weigh 100 g coarsely ground coffee."
+                },
+                {
+                  "@type": "HowToStep",
+                  "text": "Add 500 g cold water and stir."
+                },
+                {
+                  "@type": "HowToStep",
+                  "text": "Steep 16 hours, then filter."
+                }
+              ]
+            },
+            {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the best cold brew ratio?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "1:5 for concentrate, 1:10 for ready-to-drink."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How many scoops of coffee for cold brew?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "About 1 cup of ground coffee per 4 cups of water for concentrate."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Cold brew ratio guide: concentrate vs ready-to-drink"
+      },
+      {
+        "level": 2,
+        "text": "Concentrate or ready-to-drink?"
+      },
+      {
+        "level": 2,
+        "text": "Cold brew ratio chart"
+      },
+      {
+        "level": 2,
+        "text": "Converting grams to cups and scoops"
+      },
+      {
+        "level": 3,
+        "text": "Why volume measurements drift"
+      },
+      {
+        "level": 2,
+        "text": "How steeping time changes the ratio you need"
+      },
+      {
+        "level": 2,
+        "text": "Adjusting for taste"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions"
+      },
+      {
+        "level": 3,
+        "text": "What is the best cold brew ratio?"
+      },
+      {
+        "level": 3,
+        "text": "How many scoops of coffee for cold brew?"
+      },
+      {
+        "level": 3,
+        "text": "Can I reuse the grounds?"
+      }
+    ],
+    "tables": [
+      {
+        "headers": [
+          "Style",
+          "Ratio",
+          "Coffee",
+          "Water",
+          "Serve"
+        ],
+        "rows": [
+          [
+            "Strong concentrate",
+            "1:4",
+            "125 g",
+            "500 g",
+            "Dilute 1:2"
+          ],
+          [
+            "Concentrate",
+            "1:5",
+            "100 g",
+            "500 g",
+            "Dilute 1:1"
+          ],
+          [
+            "Strong ready-to-drink",
+            "1:8",
+            "125 g",
+            "1000 g",
+            "Over ice"
+          ],
+          [
+            "Ready-to-drink",
+            "1:10",
+            "100 g",
+            "1000 g",
+            "Over ice"
+          ],
+          [
+            "Light ready-to-drink",
+            "1:12",
+            "85 g",
+            "1000 g",
+            "Over ice"
+          ]
+        ]
+      }
+    ]
+  }
+}

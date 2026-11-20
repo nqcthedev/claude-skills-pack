@@ -1,0 +1,28 @@
+{
+  "tool": "fetch_page",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "max_chars": 12000
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "finalUrl": "http://127.0.0.1:3402/dailygrind/cold-brew-ratio",
+    "status": 200,
+    "title": "Cold Brew Ratio Cheat Sheet | The Daily Grind | Coffee Tips, Recipes and More",
+    "description": null,
+    "lang": "en",
+    "canonical": null,
+    "byline": null,
+    "siteName": null,
+    "publishedTime": null,
+    "extractor": "readability",
+    "wordCount": 63,
+    "markdown": "Advertisement\n\nLooking for the perfect cold brew ratio? Here is our quick cheat sheet.\n\n### Ratios\n\n-   Concentrate: 1 cup coffee to 4 cups water\n-   Regular: 1 cup coffee to 8 cups water\n\n### Steep time\n\n12 to 24 hours. Strain and enjoy.\n\nAdvertisement\n\n### Tips\n\n-   Use coarse coffee.\n-   Use filtered water.\n-   Store in the fridge for up to 2 weeks.\n\n[click here](http://127.0.0.1:3402/dailygrind/) for more coffee tips.",
+    "truncated": false,
+    "openGraph": {},
+    "bytes": 1062,
+    "elapsedMs": 3,
+    "fromCache": false
+  }
+}

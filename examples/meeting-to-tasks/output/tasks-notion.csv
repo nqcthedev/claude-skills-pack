@@ -1,0 +1,11 @@
+Name,Assignee,Due,Priority,Status,Depends on,Source
+Check SMS brandname on TinNhanNhanh account and send details,Hoa Tran,2026-12-04,High,Not started,,I'll check with the provider and send you the account details by Friday.
+Send service account email for calendar sharing,Bao Dang,2026-12-02,High,Not started,,I'll send the email address after this call.
+Share all 11 dentist calendars with the service account,Hoa Tran,2026-12-07,High,Not started,A2,"I can do the sharing, but only on Monday"
+Send latest price list and insurer list to An,Thu Nguyen,2026-12-03,High,Not started,,I'll send the price list and the insurer list to An tomorrow.
+Draft Vietnamese script and send to Hoa and Dr. Minh for review,An Vo,2026-12-11,High,Not started,A4,I'll turn that into the first Vietnamese script and send it for review by end of next week.
+Review and approve the Vietnamese script,Dr. Minh Le,2026-12-15,High,Not started,A5,"Fine, two days."
+Add insurance-coverage test case to the test script,Bao Dang,,Medium,Not started,,"Yes, I'll add it to the test script."
+Ask marketing agency to add Bao as Facebook page admin,Hoa Tran,2026-12-04,High,Not started,,"I'll ask them to add Bao as admin, hopefully by Friday."
+Send testing invites for 28-30 Dec to Thu and Khoa,An Vo,,Medium,Not started,,I'll send calendar invites.
+"Add optional ""how did you hear about us"" question to booking",An Vo,2026-12-11,Low,Not started,,"It's small, I'll include it in the script draft."

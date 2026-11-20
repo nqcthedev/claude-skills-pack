@@ -1,0 +1,12 @@
+Range: HEAD vs merge-base with main (f2e13ee676)
+Files: 6 (+75 / -0), source 5, tests 0; commits: 1; languages: Other, Python, SQL
+Checklist: skills/code-review-checklist/references/default-checklist.md
+Risk flags (7) - confirm or dismiss each:
+  - possible_secret: app/config.py:4 - hardcoded_credential: SMS_API_KEY = "tnn_live_9f3b2c7d1e8a4f6b"
+  - debug_statement: app/reminders.py:28 - print("sending", appt["patient_phone"], text)
+  - weak_random_or_hash: app/routes/cancel.py:15 - token = str(int(random.random() * 10**12))
+  - possible_sql_injection: app/routes/cancel.py:26 - row = db.execute(f"SELECT appointment_id FROM cancel_tokens WHERE token = '{token}'").fetchone()
+  - migration: migrations/003_cancel_tokens.sql - Database migration or SQL file changed
+  - dependency_change: requirements.txt - Dependency manifest changed
+  - source_without_tests: app/__init__.py - 5 source file(s) changed, no test files changed
+Wrote .review/diff.patch and .review/summary.json

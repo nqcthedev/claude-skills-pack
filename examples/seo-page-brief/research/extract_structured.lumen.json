@@ -1,0 +1,99 @@
+{
+  "tool": "extract_structured",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew",
+    "include": [
+      "meta",
+      "headings",
+      "json_ld",
+      "tables"
+    ]
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew",
+    "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+    "status": 200,
+    "meta": {
+      "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+      "description": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+      "canonical": "http://127.0.0.1:3402/lumen/cold-brew",
+      "lang": "en",
+      "robots": null,
+      "hreflang": []
+    },
+    "jsonLd": [
+      {
+        "valid": true,
+        "types": [
+          "Recipe",
+          "FAQPage"
+        ],
+        "warnings": [],
+        "data": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Recipe",
+              "name": "Cold brew concentrate",
+              "recipeYield": "1 litre",
+              "totalTime": "PT16H"
+            },
+            {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does cold brew last?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Up to two weeks in the fridge."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "How to make cold brew at home"
+      },
+      {
+        "level": 2,
+        "text": "What you need"
+      },
+      {
+        "level": 2,
+        "text": "Grind size for cold brew"
+      },
+      {
+        "level": 2,
+        "text": "Steeping time and ratio"
+      },
+      {
+        "level": 2,
+        "text": "Dilution and serving"
+      },
+      {
+        "level": 2,
+        "text": "How long does cold brew last?"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions"
+      },
+      {
+        "level": 3,
+        "text": "Is cold brew stronger than regular coffee?"
+      },
+      {
+        "level": 3,
+        "text": "Can I use pre-ground coffee?"
+      }
+    ],
+    "tables": []
+  }
+}

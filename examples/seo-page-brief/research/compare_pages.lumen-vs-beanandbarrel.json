@@ -1,0 +1,336 @@
+{
+  "tool": "compare_pages",
+  "arguments": {
+    "url_a": "http://127.0.0.1:3402/lumen/cold-brew",
+    "url_b": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test"
+  },
+  "isError": false,
+  "structuredContent": {
+    "a": {
+      "url": "http://127.0.0.1:3402/lumen/cold-brew",
+      "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+      "status": 200,
+      "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+      "metaDescription": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+      "h1": [
+        "How to make cold brew at home"
+      ],
+      "wordCount": 394,
+      "headingCount": 9,
+      "internalLinks": 3,
+      "externalLinks": 0,
+      "images": 0,
+      "structuredDataTypes": [
+        "Recipe",
+        "FAQPage"
+      ],
+      "topKeywords": [
+        {
+          "term": "cold",
+          "count": 13,
+          "density": 3.22
+        },
+        {
+          "term": "brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coffee",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "concentrate",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "water",
+          "count": 7,
+          "density": 1.73
+        },
+        {
+          "term": "filter",
+          "count": 6,
+          "density": 1.49
+        },
+        {
+          "term": "grind",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "hours",
+          "count": 4,
+          "density": 0.99
+        },
+        {
+          "term": "bitter",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "coarse",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "fine",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "jar",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "steeps",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "taste",
+          "count": 3,
+          "density": 0.74
+        },
+        {
+          "term": "two",
+          "count": 3,
+          "density": 0.74
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "cold brew",
+          "count": 11,
+          "density": 2.72
+        },
+        {
+          "term": "coarse grind",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "pre-ground coffee",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "room temperature",
+          "count": 2,
+          "density": 0.5
+        },
+        {
+          "term": "steeps taste",
+          "count": 2,
+          "density": 0.5
+        }
+      ]
+    },
+    "b": {
+      "url": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+      "finalUrl": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+      "status": 200,
+      "title": "We Tested 5 Cold Brew Ratios Side by Side (Results)",
+      "metaDescription": "We brewed five cold brew ratios from 1:4 to 1:12 with the same beans and tasted them blind. Here is what each ratio tastes like and which one won.",
+      "h1": [
+        "We tested 5 cold brew ratios side by side"
+      ],
+      "wordCount": 288,
+      "headingCount": 6,
+      "internalLinks": 2,
+      "externalLinks": 0,
+      "images": 1,
+      "structuredDataTypes": [],
+      "topKeywords": [
+        {
+          "term": "brew",
+          "count": 7,
+          "density": 2.35
+        },
+        {
+          "term": "cold",
+          "count": 5,
+          "density": 1.68
+        },
+        {
+          "term": "side",
+          "count": 4,
+          "density": 1.34
+        },
+        {
+          "term": "concentrate",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "diluted",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "glass",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "milk",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "ratio",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "tested",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "water",
+          "count": 3,
+          "density": 1.01
+        },
+        {
+          "term": "amount",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "beans",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "coffee",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "costs",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "dilution",
+          "count": 2,
+          "density": 0.67
+        }
+      ],
+      "topPhrases": [
+        {
+          "term": "cold brew",
+          "count": 5,
+          "density": 1.68
+        },
+        {
+          "term": "brew ratios",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "ratios side",
+          "count": 2,
+          "density": 0.67
+        },
+        {
+          "term": "room temperature",
+          "count": 2,
+          "density": 0.67
+        }
+      ]
+    },
+    "differences": {
+      "titleSame": false,
+      "metaDescriptionSame": false,
+      "wordCountDelta": -106,
+      "headings": {
+        "onlyInA": [
+          "What you need",
+          "Grind size for cold brew",
+          "Steeping time and ratio",
+          "Dilution and serving",
+          "How long does cold brew last?",
+          "Frequently asked questions",
+          "Is cold brew stronger than regular coffee?",
+          "Can I use pre-ground coffee?"
+        ],
+        "onlyInB": [
+          "The setup",
+          "The results",
+          "What we recommend",
+          "Cost per glass",
+          "What we would test next"
+        ],
+        "common": []
+      },
+      "keywords": {
+        "onlyInA": [
+          "filter",
+          "grind",
+          "hours",
+          "bitter",
+          "coarse",
+          "fine",
+          "jar",
+          "steeps",
+          "taste",
+          "two"
+        ],
+        "onlyInB": [
+          "side",
+          "diluted",
+          "glass",
+          "milk",
+          "ratio",
+          "tested",
+          "amount",
+          "beans",
+          "costs",
+          "dilution"
+        ],
+        "common": [
+          "cold",
+          "brew",
+          "coffee",
+          "concentrate",
+          "water"
+        ]
+      },
+      "phrases": {
+        "onlyInA": [
+          "coarse grind",
+          "pre-ground coffee",
+          "steeps taste"
+        ],
+        "onlyInB": [
+          "brew ratios",
+          "ratios side"
+        ],
+        "common": [
+          "cold brew",
+          "room temperature"
+        ]
+      },
+      "structuredDataTypes": {
+        "onlyInA": [
+          "Recipe",
+          "FAQPage"
+        ],
+        "onlyInB": [],
+        "common": []
+      }
+    },
+    "observations": [
+      "B is 106 words shorter than A (-27%).",
+      "B covers 5 sub-topic(s) A doesn't: The setup; The results; What we recommend; Cost per glass; What we would test next.",
+      "A covers 8 sub-topic(s) B doesn't: What you need; Grind size for cold brew; Steeping time and ratio; Dilution and serving; How long does cold brew last?; Frequently asked questions; … (+2 more).",
+      "Phrases prominent only in B: brew ratios, ratios side.",
+      "A has structured data B lacks: Recipe, FAQPage."
+    ]
+  }
+}

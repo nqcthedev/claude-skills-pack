@@ -1,0 +1,49 @@
+BrightSmile x Northbeam - Project kickoff call
+Date: Wednesday 2 December 2026, 14:00-14:11 (Google Meet, auto-transcript, lightly cleaned)
+Attendees: Hoa Tran (BrightSmile, Operations Manager), Dr. Minh Le (BrightSmile, Director), Thu Nguyen (BrightSmile, Front desk lead D1), Khoa Pham (BrightSmile, Front desk lead D7), An Vo (Northbeam, Project lead), Bao Dang (Northbeam, Engineer)
+
+[Fictional sample transcript for the meeting-to-tasks skill. All people and businesses are invented.]
+
+00:00 An Vo: Thanks everyone for making time. Goal for today: agree the booking rules, the handover rules, and what we need from each other this week so we can hit the 8 January launch.
+00:41 Dr. Minh Le: Before we start, one decision from my side. We're going with the Recommended option. The dashboard can wait until after Tet.
+00:52 An Vo: Great, noted. Then SMS reminders are in, Zalo is out for now.
+01:10 Hoa Tran: For SMS, we used a provider called TinNhanNhanh for promotions last year, so we already have an account.
+01:25 Bao Dang: That helps a lot. Do you know if the brandname "BrightSmile" was registered on that account?
+01:33 Hoa Tran: I'm not sure. I'll check with the provider and send you the account details by Friday.
+02:05 An Vo: Booking rules. Thu, Khoa, what does a normal day look like?
+02:12 Thu Nguyen: Check-up and cleaning is 45 minutes. Whitening is 90 minutes and only Dr. Lan and Dr. Quang do it. Fillings are 60. Anything like implants or root canals, patients must come for a consultation first, the bot should never book those directly.
+03:02 Khoa Pham: Same in District 7, except we close at 6pm on Saturdays, not 8pm.
+03:15 Bao Dang: Can the bot book the last slot of the day?
+03:20 Thu Nguyen: No, the last booking must finish 30 minutes before closing. The dentists hate overtime.
+03:31 An Vo: Okay, so decision: only check-ups, cleaning, fillings and whitening are bookable online; everything else goes to a consultation request. And the last appointment ends 30 minutes before closing.
+03:44 Dr. Minh Le: Yes, agreed.
+04:10 Bao Dang: For calendars, I'll need someone to share all 11 dentist calendars with our service account. I'll send the email address after this call.
+04:22 Hoa Tran: I can do the sharing, but only on Monday, our IT person has the admin password and she's back on Monday.
+04:30 Bao Dang: Monday is fine.
+05:02 An Vo: Handover. When should the bot stop and call a human?
+05:09 Khoa Pham: Any pain, swelling, bleeding, anything that sounds urgent. And complaints.
+05:15 Dr. Minh Le: For urgent symptoms, the bot should give the clinic hotline immediately, not just wait for the front desk to reply. Patients in pain shouldn't wait.
+05:28 An Vo: Good point, so decision: urgent symptoms get the hotline number straight away plus a handover alert. Everything else that's medical gets a normal handover.
+05:40 Thu Nguyen: Who receives the alerts at night?
+05:46 Hoa Tran: Hmm. I don't know yet. Maybe the on-call dentist? Let me think about it.
+05:55 An Vo: We'll need a name per clinic before testing starts. Let's leave it open for now.
+06:20 An Vo: Content. Hoa, we need the current price list and the list of insurers you accept.
+06:27 Hoa Tran: The price list changed in November, Thu has the latest version.
+06:31 Thu Nguyen: I'll send the price list and the insurer list to An tomorrow.
+06:40 An Vo: Perfect. I'll turn that into the first Vietnamese script and send it for review by end of next week.
+06:52 Dr. Minh Le: I want to read the script myself before it goes live, not just Hoa.
+07:00 An Vo: Of course. We'll send it to both of you. We need approval within two business days to keep the content freeze on the 18th.
+07:15 Dr. Minh Le: Fine, two days.
+07:40 Khoa Pham: Small thing, a lot of our expat patients ask whether we take Cigna or Bupa. The answer depends on the plan, so the bot shouldn't promise anything.
+07:52 An Vo: Agreed, the bot will say coverage depends on the plan and offer to have the front desk check. Bao, can you make sure the insurance answer never says "yes" outright? That's a test case.
+08:03 Bao Dang: Yes, I'll add it to the test script.
+08:30 Hoa Tran: What about the Facebook page access?
+08:36 An Vo: We need admin on the page to connect Messenger. Ideally this week.
+08:41 Hoa Tran: Our marketing agency manages the page. I'll ask them to add Bao as admin, hopefully by Friday.
+09:05 An Vo: Last thing, testing. We need two staff for three days in the week of 28 December.
+09:12 Thu Nguyen: I can do it, and Khoa?
+09:15 Khoa Pham: Yes, but not on the 31st, we have the year-end inventory.
+09:22 An Vo: Then 28, 29 and 30 December. I'll send calendar invites.
+09:40 Dr. Minh Le: Also, can the bot ask new patients how they heard about us? Marketing keeps asking me.
+09:48 An Vo: We can add one optional question at the end of a booking. It's small, I'll include it in the script draft.
+10:05 An Vo: Okay, I think we're done. Thanks all.

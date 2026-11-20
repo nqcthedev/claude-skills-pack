@@ -1,0 +1,30 @@
+{
+  "tool": "fetch_page",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "max_chars": 12000
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "finalUrl": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "status": 200,
+    "title": "We Tested 5 Cold Brew Ratios Side by Side (Results)",
+    "description": "We brewed five cold brew ratios from 1:4 to 1:12 with the same beans and tasted them blind. Here is what each ratio tastes like and which one won.",
+    "lang": "en",
+    "canonical": "http://127.0.0.1:3402/beanandbarrel/cold-brew-ratio-test",
+    "byline": null,
+    "siteName": null,
+    "publishedTime": null,
+    "extractor": "readability",
+    "wordCount": 288,
+    "markdown": "## We tested 5 cold brew ratios side by side\n\nEvery cold brew guide gives a different ratio, so we tested five of them. Same beans (a medium-roast Colombian), same coarse grind, same filtered water, 16 hours at room temperature, then diluted to the same drinking strength where needed. Four of us tasted them blind.\n\n## The setup\n\nWe used 1 litre of water for each jar and changed only the amount of coffee: 250 g for 1:4, 200 g for 1:5, 125 g for 1:8, 100 g for 1:10 and 83 g for 1:12. Concentrates were diluted with an equal amount of water before tasting.\n\n## The results\n\n| Ratio | What it tasted like | Votes for favourite |\n| --- | --- | --- |\n| 1:4 | Heavy and syrupy, slightly bitter even after dilution | 0 |\n| 1:5 | Rich and chocolatey, smooth with milk | 2 |\n| 1:8 | Balanced, sweet, the best straight over ice | 2 |\n| 1:10 | Clean but a little thin | 0 |\n| 1:12 | Watery, tea-like | 0 |\n\n## What we recommend\n\nIf you drink your cold brew with milk, brew a 1:5 concentrate. If you drink it black over ice, brew 1:8 and skip the dilution step. Nobody liked 1:4 enough to justify using twice as much coffee.\n\n## Cost per glass\n\nAt $16 per 500 g bag, a 1:5 concentrate costs about $0.80 per 250 ml glass once diluted, and a 1:8 ready-to-drink batch costs about $1.00 per glass. Concentrate stretches your beans further when you dilute it with milk.\n\n## What we would test next\n\nSteeping in the fridge versus at room temperature, and whether a light roast needs a stronger ratio. Tell us what you want us to test.\n\nRead more: [our basic cold brew recipe](http://127.0.0.1:3402/beanandbarrel/cold-brew-at-home)",
+    "truncated": false,
+    "openGraph": {
+      "og:title": "We tested 5 cold brew ratios"
+    },
+    "bytes": 2590,
+    "elapsedMs": 3,
+    "fromCache": false
+  }
+}

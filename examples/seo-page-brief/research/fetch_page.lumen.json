@@ -1,0 +1,32 @@
+{
+  "tool": "fetch_page",
+  "arguments": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew",
+    "max_chars": 12000
+  },
+  "isError": false,
+  "structuredContent": {
+    "url": "http://127.0.0.1:3402/lumen/cold-brew",
+    "finalUrl": "http://127.0.0.1:3402/lumen/cold-brew",
+    "status": 200,
+    "title": "How to Make Cold Brew Coffee at Home (Easy Recipe)",
+    "description": "Make smooth, low-acid cold brew at home with a coarse grind, a 1:8 concentrate ratio and a 16-hour steep. Includes dilution and storage tips.",
+    "lang": "en",
+    "canonical": "http://127.0.0.1:3402/lumen/cold-brew",
+    "byline": null,
+    "siteName": null,
+    "publishedTime": null,
+    "extractor": "readability",
+    "wordCount": 394,
+    "markdown": "Cold brew is coffee steeped in cold water for many hours instead of brewed with hot water for a few minutes. The result is smooth, chocolatey and noticeably lower in perceived acidity, which is why it has become the default summer coffee for so many people. It is also forgiving: you need no special equipment beyond a jar and a filter.\n\n## What you need\n\nA large jar or pitcher, 125 grams of coarsely ground coffee, one litre of cold filtered water and a way to filter the result, such as a paper filter, a fine sieve lined with cloth or a dedicated cold brew bag. A medium or dark roast with chocolate and nut notes works best for a classic cold brew.\n\n## Grind size for cold brew\n\nUse a coarse grind, similar to raw sugar or breadcrumbs. Because the coffee steeps for so long, a fine grind over-extracts and becomes muddy and bitter, and it is also much harder to filter. Coarse grounds keep the concentrate clean and easy to strain.\n\n## Steeping time and ratio\n\nCombine the coffee and water at a ratio of 1:8 to make a concentrate. Stir gently so all the grounds are wet, cover and leave the jar at room temperature for 14 to 18 hours, or in the fridge for up to 24 hours. Sixteen hours at room temperature is a good starting point. Shorter steeps taste lighter and fruitier; longer steeps taste heavier and more bitter.\n\n## Dilution and serving\n\nFilter the concentrate and dilute it with an equal amount of water or milk before serving over ice. Taste and adjust: some people prefer one part concentrate to two parts water. Cold brew concentrate also works well in tonic water with a slice of orange.\n\n## How long does cold brew last?\n\nStored in a sealed bottle in the fridge, concentrate keeps for up to two weeks, although it tastes best in the first week. Diluted cold brew should be drunk within two or three days.\n\n## Frequently asked questions\n\n### Is cold brew stronger than regular coffee?\n\nThe concentrate is, but once diluted a glass of cold brew has a similar amount of caffeine to a cup of filter coffee.\n\n### Can I use pre-ground coffee?\n\nYes, but choose a coarse grind labelled for French press. Fine pre-ground coffee makes cloudy, bitter cold brew.\n\nFor hot coffee, see our [pour-over guide](http://127.0.0.1:3402/lumen/brewing-guide).",
+    "truncated": false,
+    "openGraph": {
+      "og:title": "How to make cold brew at home",
+      "og:description": "Coarse grind, 1:8 ratio, 16 hours.",
+      "og:image": "/img/cold-brew.jpg"
+    },
+    "bytes": 3705,
+    "elapsedMs": 21,
+    "fromCache": false
+  }
+}
