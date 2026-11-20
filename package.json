@@ -1,0 +1,12 @@
+{
+  "name": "claude-skills-pack-docs",
+  "private": true,
+  "description": "Dev-only tooling to render README screenshots of the examples. The skills themselves need no Node.js.",
+  "type": "module",
+  "scripts": {
+    "screenshots": "node scripts/render_screenshots.mjs"
+  },
+  "devDependencies": {
+    "marked": "^18.2.1"
+  }
+}

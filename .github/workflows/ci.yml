@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  skills:
+    name: Lint skills and test scripts (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -r requirements-dev.txt
+      - name: Lint every skill (strict)
+        run: python scripts/lint_skills.py --strict
+      - name: Unit tests (linter, helper scripts, example consistency)
+        run: python -m unittest discover -s tests -v
+      - name: Package upload zips
+        run: python scripts/package_skills.py
+      - uses: actions/upload-artifact@v4
+        if: matrix.python == '3.13'
+        with:
+          name: skill-zips
+          path: dist/*.zip
