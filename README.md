@@ -151,4 +151,4 @@ MIT © Cuong Nguyen
 
 ---
 
-Built by Cuong Nguyen — AI developer. Available for hire on Fiverr: https://www.fiverr.com/cuongnqxx
+Built by NQC The Dev — AI developer. Available for hire on Fiverr: https://www.fiverr.com/cuongnqxx
